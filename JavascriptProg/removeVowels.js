@@ -1,4 +1,4 @@
 const str = "coding beauty";
-console.log(str);
-const removeVowels = str.replace(/[aeiou]/i, "");
-console.log(removeVowels);
+console.log("Before : ", str);
+const removeVowels = str.replace(/[aeiou]/gi, "");
+console.log("After : ", removeVowels);
