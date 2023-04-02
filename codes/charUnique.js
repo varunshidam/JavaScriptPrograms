@@ -1,7 +1,7 @@
-let arrayString = "Geeksforgeeks Is a great site for computer science";
-let String = arrayString.split("");
-console.log(String);
-let res = String.filter((ele, id) => {
-  return String.indexOf(ele) != id;
+var str = "big black bug bit a big black dog on his big black nose";
+var strArray = str.split(" ");
+const res = strArray.filter(function (item, pos, self) {
+  return self.indexOf(item) != pos;
 });
-console.log(res);
+const result = [...new Set(res)];
+console.log(result);

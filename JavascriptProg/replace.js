@@ -1,4 +1,4 @@
 let str = "varunsidam";
 
-let result = str.replace("s", "D");
+let result = str.replace(2, "D");
 console.log(result);

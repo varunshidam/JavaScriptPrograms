@@ -1,5 +1,4 @@
 const string = "madam";
-const array = [1, 2, 3, 4];
 let rev = string.split("").reverse().join("");
 
 if (rev == string) {
@@ -8,5 +7,6 @@ if (rev == string) {
   console.log("Not Palimdrone");
 }
 
+const array = [1, 2, 3, 4];
 const type = typeof array;
 console.log("typeOf : ", type);
