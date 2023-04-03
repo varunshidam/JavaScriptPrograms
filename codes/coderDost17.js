@@ -4,8 +4,6 @@ let line = "";
 for (let i = 0; i < strArry.length; i++) {
   let temp = strArry[i];
   let result = [...temp];
-
-  // console.log(result.reverse().join(""));
   line += " " + result.reverse().join("");
 }
 console.log(line);
