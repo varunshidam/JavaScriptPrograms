@@ -3,6 +3,8 @@
 
 const array = [2, 7, 11, 4, 2];
 let add = 0;
+
+
 for (let i = 0; i < array.length; i++) {
   add += array[i];
 }
