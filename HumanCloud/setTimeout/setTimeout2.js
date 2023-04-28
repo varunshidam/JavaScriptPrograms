@@ -21,5 +21,4 @@ x()
 
 // 1 2 3 4 5
 
-
 // let is a block scope so each and every time it create a new variable

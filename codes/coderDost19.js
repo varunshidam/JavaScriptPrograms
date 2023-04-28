@@ -1,4 +1,5 @@
 const string = "for their servers and workstations";
+const strUp = string.toUpperCase();
 let vowels = ["a", "e", "i", "o", "u"];
 let count = 0;
 let strArr = string.split("");

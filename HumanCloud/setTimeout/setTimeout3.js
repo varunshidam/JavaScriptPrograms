@@ -10,4 +10,3 @@ function x() {
   console.log("Hi Varun");
 }
 x();
-e

@@ -9,7 +9,7 @@ anotherPerson.name = "sanjay sidam";
 console.log(anotherPerson);
 // { name: 'sanjay sidam', age: 25, address: 'Hinjwadi' }
 
-var target = Object.assign({ phone: 65345678 }, person);
+var target = Object.assign(person, { phone: 65345678 });
 
 target.name = "kalpana ";
 // var targetObject = {
